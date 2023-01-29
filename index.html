@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="Copyright (c) 2023  &amp; mohammad.mgs.98@gmail.com">
+    <meta name="keywords"content="todo,todolist,task,tasklist">
+    <meta name="description" content="Task List">
+    <link rel="stylesheet" href="fontAwesome5/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+
+
+    <div class="app-container">
+
+        <!-- task header -->
+
+        <div class="task-header">
+            <h2 class="task-header__date"></h2>
+            <div class="task-header__tools">
+                <span class="task-header__tools-count"></span>
+                <button class="clear-tasks">Clear All Task</button>
+            </div>
+            <div class="task-header__input-container">
+            <input type="text" class="task-input" placeholder="Write the task and enter ...">
+            <button class="add-task-btn">ADD</button>
+        </div>
+        </div>
+
+        <!-- task list -->
+
+        <div class="task-container">
+            <div class="not-task">
+                <i class="fas fa-warning not-task__icon"></i>
+                <span class="not-task__text">Not found a task</span>
+            </div>
+            <ul class="task-list">
+                <!-- It is created in JavaScript -->
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer style="opacity: 0.5; font-size: 13px; margin-top: 30px;">
+        <span>Telegram ID of the programmer : <a style="text-decoration: none; color: blue; font-weight: bold; " href="https://t.me/m155680">@M155680</a>
+        </span>
+    </footer>
+
+    <script src="fontAwesome5/all.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
